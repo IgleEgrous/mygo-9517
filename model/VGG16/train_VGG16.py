@@ -10,7 +10,7 @@ def train():
     device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 
     # Define directories for magnification "200"
-    train_dir = "D:/Productivity/github/mygo-9517/archive/imbalanced/train"
+    train_dir = "./mygo-9517/archive/balanced/train"
 
     # Define transformations for training
     train_transforms = transforms.Compose([
@@ -67,7 +67,7 @@ def train():
         print(f"Epoch {epoch+1}/{epochs} - Loss: {epoch_loss:.4f} - Accuracy: {epoch_acc:.4f}")
 
     # Save the trained model
-    torch.save(model.state_dict(), "vgg16_model_Aerial_Landscapeswss_imbalanced.pth")
+    torch.save(model.state_dict(), "vgg16_model_Aerial_Landscapeswss_balanced.pth")
     print("Training complete and model saved.")
 
 if __name__ == '__main__':

@@ -30,7 +30,7 @@ def validate():
 
     num_classes = len(val_dataset.classes)
     model.classifier[6] = nn.Linear(model.classifier[6].in_features, num_classes)
-    model.load_state_dict(torch.load("vgg16_model_Aerial_Landscapeswss_imbalanced.pth", map_location=device))
+    model.load_state_dict(torch.load("vgg16_model_Aerial_Landscapeswss_balanced.pth", map_location=device))
     model = model.to(device)
     model.eval()
 

@@ -67,7 +67,7 @@ def train():
         print(f"Epoch {epoch+1}/{epochs} - Loss: {epoch_loss:.4f} - Accuracy: {epoch_acc:.4f}")
 
     # Save the trained model
-    torch.save(model.state_dict(), "vgg16_model_Aerial_Landscapes.pth")
+    torch.save(model.state_dict(), "vgg16_model_Aerial_Landscapeswss.pth")
     print("Training complete and model saved.")
 
 if __name__ == '__main__':

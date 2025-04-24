@@ -1,4 +1,4 @@
-# Aerial Scene Classification with ResNet50 and Grad-CAM
+# Aerial Scene Classification
 
 ---
 
@@ -15,9 +15,9 @@
 ---
 
 ## Project Overview  
-This project implements an aerial scene classification system using **ResNet50** and **Grad-CAM** for model interpretability. It includes:  
+This project implements an aerial scene classification system using **traditional machine learning** and **deep learning methods**. It includes:  
 1. **Data augmentation** to enhance generalization.  
-2. **Transfer learning** with pre-trained ResNet50.  
+2. **Transfer learning** with pre-trained models.  
 3. **Visual explanations** via Grad-CAM attention maps.  
 4. **Robustness testing** under noise and occlusion.  
 
@@ -55,32 +55,43 @@ git clone https://github.com/IgleEgrous/mygo-9517?tab=readme-ov-file
 ### Dataset Structure
 ```plaintext
 archive/
-  ├── balanced
+  ├── balanced/
     ├── train/
     │   ├── airport/
     │   ├── forest/
     │   └── ...
     ├── val/
     └── test/
-  ├── imbalanced
+  ├── imbalanced/
 ```
 ### Download Dataset
+* Source: [SkyView Dataset on Kaggle](https://www.kaggle.com/datasets/ankit1743/skyview-an-aerial-landscape-dataset)
+
+* Details: 15 classes, 800 images per class.
 ---
 
-## Project Overview 
+## Training & Evaluation
+### Train a Model
+
+---
+
+## Example Results
 ### Dependencies
 
 ---
 
-## Project Overview 
+## Contributing
 ### Dependencies
 
 ---
 
-## Project Overview 
+## License
 ### Dependencies
 
----
+## Acknowledgments
+* Dataset provider: Kaggle community
+* Reference papers:
+* * [Grad-CAM: Visual Explanations from Deep Networks](https://arxiv.org/abs/1610.02391)
 
-## Project Overview 
-### Dependencies
+## Contact
+* z5513840@ad.unsw.ed.au

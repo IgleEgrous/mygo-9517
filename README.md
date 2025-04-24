@@ -8,7 +8,6 @@
 - [Installation](#installation)  
 - [Data Preparation](#data-preparation)  
 - [Training & Evaluation](#training--evaluation)  
-- [Interpretability Analysis](#interpretability-analysis)  
 - [Example Results](#example-results)  
 - [License](#license)  
 
@@ -78,6 +77,7 @@ archive/
 ## Training & Evaluation
 ### Train a Model
 #### VGG16:
+this part has trained 3 models:the weights without pretrain, the weights with pretrain and the weights with pretrain while data augmentation.
 path shows as below:
 
 ```plaintext

@@ -114,7 +114,12 @@ these figures show that the performance on each classes when resnet without augm
 
 #### more details you can check at [9517en&rn.ipynb](https://github.com/IgleEgrous/mygo-9517/blob/main/model/9517en%26rn.ipynb) and [9517en&rn data.ipynb](https://github.com/IgleEgrous/mygo-9517/blob/main/model/9517en%26rn%20data.ipynb) 
 
+#### Grad-Cam:
+these figures show the heap map of Grad-cam on original image and perturbed image:
 
+<img src="result/grad-cam.png">
+
+#### more details you can check at [Grad-CAM.ipynb](https://github.com/IgleEgrous/mygo-9517/blob/main/model/VGG16/Grad-CAM.ipynb)
 ---
 
 ## License

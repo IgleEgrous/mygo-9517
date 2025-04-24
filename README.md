@@ -92,15 +92,15 @@ archive/
 ### Classification Performance
 #### VGG16
 balanced dataset without pretrain
-<img src="result/bn.png" width="300" height="300"/>
+<img src="result/bn.png" width="300" height="300">
 imbalanced dataset without pretrain
-<img src="result/in.png" width="300" height="300"/>
+<img src="result/in.png" width="300" height="300">
 balanced dataset with pretrain
-<img src="result/bp.png" width="300" height="300"/>
+<img src="result/bp.png" width="300" height="300">
 imbalanced dataset with pretrain
-<img src="result/ip.png" width="300" height="300"/>
+<img src="result/ip.png" width="300" height="300">
 imbalanced dataset with augmentation
-<img src="result/au.png" width="300" height="300"/>
+<img src="result/au.png" width="300" height="300">
 
 ---
 

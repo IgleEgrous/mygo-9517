@@ -70,7 +70,7 @@ archive/
 * balanced dataset: 15 classes, 480 images per train set, 160 images per validation and test set.
 * imbalanced dataset: as shown below.
 <center class='half'>
-    <img src="result/imbalanced_train.png" alt="imbalanced_train" width="300" height="300"/><img src="result/imbalanced_val.png" alt="imbalanced_train" width="300" height="300"/><img src="result/imbalanced_test.png" alt="imbalanced_train" width="300" height="300"/>
+    <img src="result/imbalanced_train.png"/><img src="result/imbalanced_val.png" /><img src="result/imbalanced_test.png"/>
 </center>
 ---
 

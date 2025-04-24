@@ -101,6 +101,14 @@ model/
 #### you can click here to browse [HOG+SIFT.ipynb](https://github.com/IgleEgrous/mygo-9517/blob/main/model/HOG%2BSIFT.ipynb)
 
 #### EfficientNet-B0 & ResNet-18:
+* 9517en&rn.ipynb:
+Training and evaluation notebook without data augmentation.
+This file demonstrates the baseline model performance on the balanced dataset.
+
+* 9517en&rn data.ipynb:
+Training and evaluation notebook with data augmentation.
+This file applies a series of augmentation techniques and compares the results to the baseline.
+
 path shows as below:
 
 ```plaintext

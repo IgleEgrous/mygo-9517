@@ -77,7 +77,44 @@ archive/
 
 ## Training & Evaluation
 ### Train a Model
-#### VGG16
+#### VGG16:
+imbalanced dataset with augmentation
+
+```plaintext
+model/
+  ├── VGG/
+    ├── train_VGG16_noPretrain.py
+    |
+    ├── train_VGG16_pretrained.py
+    └── train_VGG16_augmentation.py
+```
+
+#### more details you can check at [val.ipynb](https://github.com/IgleEgrous/mygo-9517/blob/main/val.ipynb)
+
+#### HOG+SIFT:
+the table shows that some traditional methods' performance:
+
+<img src="result/sift.png">
+
+#### more details you can check at [HOG+SIFT.ipynb](https://github.com/IgleEgrous/mygo-9517/blob/main/model/HOG%2BSIFT.ipynb)
+
+#### EfficientNet-B0 & ResNet-18:
+imbalanced dataset with augmentation
+these figures show that the performance on each classes when resnet without augmentation and with augmentation:
+
+<img src="result/rn_no_aug.png" >
+
+<img src="result/rn_has_aug.png">
+
+#### more details you can check at [9517en&rn.ipynb](https://github.com/IgleEgrous/mygo-9517/blob/main/model/9517en%26rn.ipynb) and [9517en&rn data.ipynb](https://github.com/IgleEgrous/mygo-9517/blob/main/model/9517en%26rn%20data.ipynb) 
+
+#### Grad-Cam:
+these figures show the heap map of Grad-cam on original image and perturbed image:
+
+<img src="result/grad-cam.png">
+
+#### more details you can check at [Grad-CAM.ipynb](https://github.com/IgleEgrous/mygo-9517/blob/main/model/VGG16/Grad-CAM.ipynb)
+
 ### Evaluate a Model
 
 ### Output Metrics
@@ -120,6 +157,7 @@ these figures show the heap map of Grad-cam on original image and perturbed imag
 <img src="result/grad-cam.png">
 
 #### more details you can check at [Grad-CAM.ipynb](https://github.com/IgleEgrous/mygo-9517/blob/main/model/VGG16/Grad-CAM.ipynb)
+
 ---
 
 ## License

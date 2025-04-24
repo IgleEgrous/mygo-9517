@@ -67,7 +67,10 @@ archive/
 ### Download Dataset
 * Source: [SkyView Dataset on Kaggle](https://www.kaggle.com/datasets/ankit1743/skyview-an-aerial-landscape-dataset)
 
-* Details: 15 classes, 800 images per class.
+* original dataset: 15 classes, 800 images per class.
+* balanced dataset: 15 classes, 480 images per train set, 160 images per validation and test set.
+* imbalanced dataset: as shown below.
+<img src="result/imbalanced_train.png" alt="imbalanced_train" width="40" height="40">
 ---
 
 ## Training & Evaluation
@@ -76,11 +79,6 @@ archive/
 ---
 
 ## Example Results
-### Dependencies
-
----
-
-## Contributing
 ### Dependencies
 
 ---

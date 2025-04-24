@@ -124,6 +124,8 @@ model/
 #### you can click here to browse [9517en&rn.ipynb](https://github.com/IgleEgrous/mygo-9517/blob/main/model/9517en%26rn.ipynb) and [9517en&rn data.ipynb](https://github.com/IgleEgrous/mygo-9517/blob/main/model/9517en%26rn%20data.ipynb) 
 
 #### Grad-Cam:
+this part Generates a category activation map to show the image regions of concern when the model makes predictions.
+
 path shows as below:
 
 ```plaintext

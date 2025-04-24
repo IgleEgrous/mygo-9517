@@ -93,7 +93,7 @@ archive/
 #### VGG16:
 imbalanced dataset with augmentation
 
-<img src="result/au.png" width="500" height="300">
+<img src="result/au.png">
 
 #### more details you can check at [val.ipynb](https://github.com/IgleEgrous/mygo-9517/blob/main/val.ipynb)
 

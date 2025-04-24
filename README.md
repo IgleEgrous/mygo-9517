@@ -122,6 +122,11 @@ model/
 #### you can click here to browse [Grad-CAM.ipynb](https://github.com/IgleEgrous/mygo-9517/blob/main/model/VGG16/Grad-CAM.ipynb)
 
 ### Evaluate a Model
+#### VGG16:
+you can click [val.ipynb](https://github.com/IgleEgrous/mygo-9517/blob/main/val.ipynb) to browse it.
+
+#### The evaluation of other methods is embedded in their code, and you can access it using the above link.
+
 
 ### Output Metrics
 * Classification report (Precision/Recall/F1)

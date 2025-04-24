@@ -86,12 +86,13 @@ archive/
 ---
 
 ## License
-### Dependencies
+This project is licensed under the [MIT License](https://opensource.org/license/mit).
 
 ## Acknowledgments
 * Dataset provider: Kaggle community
 * Reference papers:
      * [Grad-CAM: Visual Explanations from Deep Networks](https://arxiv.org/abs/1610.02391)
-
+* Readme template:
+     * [Best-README-Template](https://github.com/othneildrew/Best-README-Template)
 ## Contact
 * z5513840@ad.unsw.ed.au

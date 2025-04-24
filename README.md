@@ -53,6 +53,7 @@ git clone https://github.com/IgleEgrous/mygo-9517?tab=readme-ov-file
 
 ## Data Preparation
 ### Dataset Structure
+```plaintext
 archive/
   ├── balanced
     ├── train/
@@ -62,6 +63,7 @@ archive/
     ├── val/
     └── test/
   ├── imbalanced
+```
 ### Download Dataset
 ---
 

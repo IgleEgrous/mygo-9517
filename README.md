@@ -93,25 +93,26 @@ archive/
 #### VGG16:
 imbalanced dataset with augmentation
 
-<img src="result/au.png" width="300" height="300">
+<img src="result/au.png" width="500" height="300">
 
-#### more details you can look at [val.ipynb](https://github.com/IgleEgrous/mygo-9517/blob/main/val.ipynb)
+#### more details you can check at [val.ipynb](https://github.com/IgleEgrous/mygo-9517/blob/main/val.ipynb)
 
 #### HOG+SIFT:
 the table shows that some traditional methods' performance:
 
-<img src="result/sift.png" width="300" height="300">
+<img src="result/sift.png">
 
-#### more details you can look at [HOG+SIFT.ipynb](https://github.com/IgleEgrous/mygo-9517/blob/main/model/HOG%2BSIFT.ipynb)
+#### more details you can check at [HOG+SIFT.ipynb](https://github.com/IgleEgrous/mygo-9517/blob/main/model/HOG%2BSIFT.ipynb)
 
 #### EfficientNet-B0 & ResNet-18:
 imbalanced dataset with augmentation
 these figures show that the performance on each classes when resnet without augmentation and with augmentation:
-<img src="result/rn_no_aug.png" width="300" height="300">
 
-<img src="result/rn_has_aug.png" width="300" height="300">
+<img src="result/rn_no_aug.png" >
 
-#### more details you can look at [9517en&rn.ipynb](https://github.com/IgleEgrous/mygo-9517/blob/main/model/9517en%26rn.ipynb) and [9517en&rn data.ipynb](https://github.com/IgleEgrous/mygo-9517/blob/main/model/9517en%26rn%20data.ipynb) 
+<img src="result/rn_has_aug.png">
+
+#### more details you can check at [9517en&rn.ipynb](https://github.com/IgleEgrous/mygo-9517/blob/main/model/9517en%26rn.ipynb) and [9517en&rn data.ipynb](https://github.com/IgleEgrous/mygo-9517/blob/main/model/9517en%26rn%20data.ipynb) 
 
 
 ---

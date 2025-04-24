@@ -111,7 +111,7 @@ imbalanced dataset with augmentation
 
 <img src="result/au.png" width="300" height="300">
 
-
+more details you can look at [val.ipynb](https://github.com/IgleEgrous/mygo-9517/blob/main/val.ipynb)
 ---
 
 ## License

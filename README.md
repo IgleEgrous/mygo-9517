@@ -35,3 +35,50 @@ train_transforms = transforms.Compose([
     transforms.ToTensor(),
     transforms.Normalize([0.485, 0.456, 0.406], [0.229, 0.224, 0.225])
 ])
+```
+
+---
+
+## Installation
+### Dependencies
+```python
+pip install torch torchvision opencv-python albumentations matplotlib numpy
+```
+### Clone Repository
+```python
+git clone https://github.com/IgleEgrous/mygo-9517?tab=readme-ov-file
+```
+
+---
+
+## Data Preparation
+### Dataset Structure
+archive/
+  ├── balanced
+    ├── train/
+    │   ├── airport/
+    │   ├── forest/
+    │   └── ...
+    ├── val/
+    └── test/
+  ├── imbalanced
+### Download Dataset
+---
+
+## Project Overview 
+### Dependencies
+
+---
+
+## Project Overview 
+### Dependencies
+
+---
+
+## Project Overview 
+### Dependencies
+
+---
+
+## Project Overview 
+### Dependencies

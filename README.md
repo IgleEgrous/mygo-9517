@@ -195,4 +195,4 @@ This project is licensed under the [MIT License](https://opensource.org/license/
 * Readme template:
      * [Best-README-Template](https://github.com/othneildrew/Best-README-Template)
 ## Contact
-* z5513840@ad.unsw.ed.au
+* z5513840@ad.unsw.edu.au

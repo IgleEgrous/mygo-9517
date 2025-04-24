@@ -78,18 +78,17 @@ archive/
 ## Training & Evaluation
 ### Train a Model
 #### VGG16:
-imbalanced dataset with augmentation
+path shows as below:
 
 ```plaintext
 model/
   ├── VGG/
     ├── train_VGG16_noPretrain.py
-    |
     ├── train_VGG16_pretrained.py
     └── train_VGG16_augmentation.py
 ```
 
-#### more details you can check at [val.ipynb](https://github.com/IgleEgrous/mygo-9517/blob/main/val.ipynb)
+#### you can click here to browse [train_VGG16_noPretrain.py](https://github.com/IgleEgrous/mygo-9517/blob/main/model/VGG16/train_VGG16_noPretrain.py), [train_VGG16_pretrained.py](https://github.com/IgleEgrous/mygo-9517/blob/main/model/VGG16/train_VGG16_pretrained.py) and [train_VGG16_augmentation.py](https://github.com/IgleEgrous/mygo-9517/blob/main/model/VGG16/train_VGG16_augmentation.py)
 
 #### HOG+SIFT:
 the table shows that some traditional methods' performance:

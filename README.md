@@ -77,11 +77,30 @@ archive/
 
 ## Training & Evaluation
 ### Train a Model
+#### VGG16
+### Evaluate a Model
 
+### Output Metrics
+* Classification report (Precision/Recall/F1)
+
+* Confusion matrix
+
+* Per-class accuracy
 ---
 
 ## Example Results
-### Dependencies
+### Classification Performance
+#### VGG16
+balanced dataset without pretrain
+<img src="result/bn.png" width="300" height="300"/>
+imbalanced dataset without pretrain
+<img src="result/in.png" width="300" height="300"/>
+balanced dataset with pretrain
+<img src="result/bp.png" width="300" height="300"/>
+imbalanced dataset with pretrain
+<img src="result/ip.png" width="300" height="300"/>
+imbalanced dataset with augmentation
+<img src="result/au.png" width="300" height="300"/>
 
 ---
 

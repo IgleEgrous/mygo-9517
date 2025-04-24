@@ -91,7 +91,7 @@ archive/
 ## Acknowledgments
 * Dataset provider: Kaggle community
 * Reference papers:
-* * [Grad-CAM: Visual Explanations from Deep Networks](https://arxiv.org/abs/1610.02391)
+     * [Grad-CAM: Visual Explanations from Deep Networks](https://arxiv.org/abs/1610.02391)
 
 ## Contact
 * z5513840@ad.unsw.ed.au

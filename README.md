@@ -78,6 +78,7 @@ archive/
 ### Train a Model
 #### VGG16:
 this part has trained 3 models:the weights without pretrain, the weights with pretrain and the weights with pretrain while data augmentation.
+
 path shows as below:
 
 ```plaintext
@@ -91,6 +92,8 @@ model/
 #### you can click here to browse [train_VGG16_noPretrain.py](https://github.com/IgleEgrous/mygo-9517/blob/main/model/VGG16/train_VGG16_noPretrain.py), [train_VGG16_pretrained.py](https://github.com/IgleEgrous/mygo-9517/blob/main/model/VGG16/train_VGG16_pretrained.py) and [train_VGG16_augmentation.py](https://github.com/IgleEgrous/mygo-9517/blob/main/model/VGG16/train_VGG16_augmentation.py)
 
 #### HOG+SIFT:
+this part has trained 3 models: MLP, KNN, SVM
+
 path shows as below:
 
 ```plaintext
@@ -170,7 +173,7 @@ these figures show that the performance on each classes when resnet without augm
 
 #### more details you can check at [9517en&rn.ipynb](https://github.com/IgleEgrous/mygo-9517/blob/main/model/9517en%26rn.ipynb) and [9517en&rn data.ipynb](https://github.com/IgleEgrous/mygo-9517/blob/main/model/9517en%26rn%20data.ipynb) 
 
-#### Grad-Cam:
+### Grad-Cam:
 these figures show the heap map of Grad-cam on original image and perturbed image:
 
 <img src="result/grad-cam.png">

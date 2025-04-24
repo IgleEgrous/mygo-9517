@@ -91,28 +91,35 @@ model/
 #### you can click here to browse [train_VGG16_noPretrain.py](https://github.com/IgleEgrous/mygo-9517/blob/main/model/VGG16/train_VGG16_noPretrain.py), [train_VGG16_pretrained.py](https://github.com/IgleEgrous/mygo-9517/blob/main/model/VGG16/train_VGG16_pretrained.py) and [train_VGG16_augmentation.py](https://github.com/IgleEgrous/mygo-9517/blob/main/model/VGG16/train_VGG16_augmentation.py)
 
 #### HOG+SIFT:
-the table shows that some traditional methods' performance:
+path shows as below:
 
-<img src="result/sift.png">
+```plaintext
+model/
+  └── HOG+SIFT.ipynb
+```
 
-#### more details you can check at [HOG+SIFT.ipynb](https://github.com/IgleEgrous/mygo-9517/blob/main/model/HOG%2BSIFT.ipynb)
+#### you can click here to browse [HOG+SIFT.ipynb](https://github.com/IgleEgrous/mygo-9517/blob/main/model/HOG%2BSIFT.ipynb)
 
 #### EfficientNet-B0 & ResNet-18:
-imbalanced dataset with augmentation
-these figures show that the performance on each classes when resnet without augmentation and with augmentation:
+path shows as below:
 
-<img src="result/rn_no_aug.png" >
+```plaintext
+model/
+  ├── 9517en&rn.ipynb
+  └── 9517en&rn data.ipynb
+```
 
-<img src="result/rn_has_aug.png">
-
-#### more details you can check at [9517en&rn.ipynb](https://github.com/IgleEgrous/mygo-9517/blob/main/model/9517en%26rn.ipynb) and [9517en&rn data.ipynb](https://github.com/IgleEgrous/mygo-9517/blob/main/model/9517en%26rn%20data.ipynb) 
+#### you can click here to browse [9517en&rn.ipynb](https://github.com/IgleEgrous/mygo-9517/blob/main/model/9517en%26rn.ipynb) and [9517en&rn data.ipynb](https://github.com/IgleEgrous/mygo-9517/blob/main/model/9517en%26rn%20data.ipynb) 
 
 #### Grad-Cam:
-these figures show the heap map of Grad-cam on original image and perturbed image:
+path shows as below:
 
-<img src="result/grad-cam.png">
+```plaintext
+model/
+  └── Grad-CAM.ipynb
+```
 
-#### more details you can check at [Grad-CAM.ipynb](https://github.com/IgleEgrous/mygo-9517/blob/main/model/VGG16/Grad-CAM.ipynb)
+#### you can click here to browse [Grad-CAM.ipynb](https://github.com/IgleEgrous/mygo-9517/blob/main/model/VGG16/Grad-CAM.ipynb)
 
 ### Evaluate a Model
 
